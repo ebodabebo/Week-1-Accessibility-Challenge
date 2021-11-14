@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
 }
-/* sets box sizing for the site to border-box with no padding and no margin */
+/* sets box sizing for the site to border-box with no padding and no margin
+to override the browser's default styling */
 
 body {
     background-color: #d9dcd6;
