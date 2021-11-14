@@ -3,12 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* sets box sizing for the site to border-box with no padding and no margin */
 
 body {
     background-color: #d9dcd6;
 }
-/* this command sets a background color for the body of the page to above white-like color */
-
+/* styles the body with a white background color */
 
 .header {
     padding: 20px;
@@ -16,18 +16,19 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* styles the heading with 20 pixel padding, an array of font families, a business casual blue background color, font color of white */
+/* styles the header class with 20 pixel padding, Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-seriffont families, 
+a blue background color, font color of white */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* styles the H1 header in inline text at a font size of 48 pixels */
+/* styles the header h1 class with  in inline block format and a font size of 48 pixels */
 
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* styles H1 header.seo with a white color */
+/* styles header h1 .seo class with a white color */
 
 .header div {
     padding-top: 15px;
@@ -36,7 +37,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* styles header div section with a 15 pixel padding, 20 pixel margin, a float on the right side of the containter, an array of font families, font size 20 pixels,  */
+/* styles header div section with a 15 pixel padding, 20 pixel margin, a float on the right side of the containter, 
+Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, and sans-serif font families, font size 20 pixels */
 
 
 .header div ul {
@@ -72,7 +74,7 @@ p {
     background-position: center;
 }
 /* sets the hero class to a height of 800 pixels, width of 100% of the page, bottom margin is 25 pixels, backgroud image is a picture of 
-people at a metting, background size covers the entire container regardless of size, background positions is centered */
+people at a meeting, background size covers the entire container regardless of size, background positions is centered */
 
 .float-left {
     float: left;
@@ -103,66 +105,66 @@ people at a metting, background size covers the entire container regardless of s
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* styles benefits class with a margin-right of 20 pixels, padding of 20 pixels, a clear proprty set to both will clear a right float, width of 20%, a height of 100%, an array of font
-families, a blue background color */
+/* styles benefits class with a margin-right of 20 pixels, padding of 20 pixels, a clear proprty set to both will clear a right float, width of 20%, 
+a height of 100%, Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, and sans-serif font families, a blue background color */
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the benefit-lead class with a margin bottom of 32 pixels and a white color */
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the benefit-brand class with a margin bottom of 32 pixels and a whitle color */
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the benefit cost class with a margin bottom of 32 pixels and a whitle color */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* styles the  */
+/* styles the benefit-lead class with a margin bottom of 10 pixels and a centered text alignment */
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* styles the  */
+/* styles the benefit-brand class with a margin bottom of 10 pixels and a centered text alignment  */
 
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* styles the  */
+/* styles the benefit-cost class with a margin bottom of 10 pixels and a centered text alignment  */
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* styles the  */
+/* styles the benefit-lead image with block display, a 10 pixel margin and maximum width of 150 pixels */
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* styles the  */
+/* styles the benefit-brand image with block display, a 10 pixel margin and maximum width of 150 pixels  */
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* styles the  */
+/* styles the benefit-cost image with block display, a 10 pixel margin and maximum width of 150 pixels */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -172,7 +174,8 @@ families, a blue background color */
     background-color: #0072bb;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the search engine optimization class with a bottom margin of 20 pixels, 50 pixel padding, a height of 300 pixels, 
+an array of font families, a blue background color, and white font color */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -182,7 +185,8 @@ families, a blue background color */
     background-color: #0072bb;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the online-reputation-management class with with a bottom margin of 20 pixels, 50 pixel padding, a height of 300 pixels, 
+Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, and sans-serif font families, a blue background color, and white font color  */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -192,40 +196,41 @@ families, a blue background color */
     background-color: #0072bb;
     color: #ffffff;
 }
-/* styles the  */
+/* styles the social-media-marketing class with with a bottom margin of 20 pixels, 50 pixel padding, a height of 300 pixels, 
+Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, and sans-serif font families, a blue background color, and white font color */
 
 .search-engine-optimization img {
     max-height: 200px;
 }
-/* styles the  */
+/* styles the search-engine-optimization-image with a maximum height of 200 pixels */
 
 .online-reputation-management img {
     max-height: 200px;
 }
-/* styles the  */
+/* styles the online-reputation-management image with a maximum height of 200 pixels  */
 
 .social-media-marketing img {
     max-height: 200px;
 }
-/* styles the  */
+/* styles the social-media-marketing image with a maximum height of 200 pixels */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* styles the  */
+/* styles the search-engine-optimization h2 header class with a margin bottom of 20 pixels and a font size of 36 pixels */
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* styles the  */
+/* styles the online-reputation-management h2 header class with a margin bottom of 20 pixels and a font size of 36 pixels  */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* styles the  */
+/* styles the social-media-marketing h2 header class with a margin bottom of 20 pixels and a font size of 36 pixels  */
 
 .footer {
     padding: 30px;
@@ -233,9 +238,10 @@ families, a blue background color */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* styles the  */
+/* styles the footer class with 30 pixel padding, a clear property of both, will clear all preceeding elements, 
+Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, and sans-serif font families, set with centered text alignment. */
 
 .footer h2 {
     font-size: 20px;
 }
-/* styles the  */
+/* styles the footer h2 class with a font size of 20 pixels */
